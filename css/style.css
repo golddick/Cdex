@@ -174,7 +174,7 @@
   border-width: 5px; }
 
 .primary-black--hover {
-  background: #007bff;
+  background: green;
   color: #fff; }
   .primary-black--hover:hover {
     background: #000;
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5,
   background: #fff !important;
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
-    border-color: #007bff; }
+    border-color: green; }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5,
   .ul-check.success li:before {
     color: #71bc42; }
   .ul-check.primary li:before {
-    color: #007bff; }
+    color: green; }
 
 .select-wrap, .wrap-icon {
   position: relative; }
@@ -444,7 +444,9 @@ h1, h2, h3, h4, h5,
     width: 100%; }
 
 .top-bar {
-  border-bottom: 1px solid #e9ecef !important; }
+  border-bottom: 1px solid #e9ecef !important; 
+/* background-color: red !important; */
+}
 
 /* Navbar */
 .site-navbar {
@@ -452,7 +454,32 @@ h1, h2, h3, h4, h5,
   z-index: 1999;
   position: relative;
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem;
+  /* background-color: #000 !important;
+  color: white !important; */
+}
+
+.logo{
+  color: green !important;
+  font-size: 30px;
+
+}
+
+.btn-primary, .btn{
+  background-color:green!important;
+  border:  none !important;
+}
+
+.nav-link, .icon{
+  color: green;
+}
+
+.serviceIcon{
+  height: 200px;
+  width: 80px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
   @media (max-width: 991.98px) {
     .site-navbar {
       padding-top: 3rem;
@@ -478,7 +505,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
-      color: #007bff !important; }
+      color: green !important; }
     .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       display: inline-block; }
@@ -1347,9 +1374,200 @@ h1, h2, h3, h4, h5,
 .ftco-service-image-1 .service p {
   color: #999999; }
 
+
+  .about-Container{
+    width: 80%;
+    margin: auto;
+    /* background: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .aboutOverview{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    /* background-color: #007bff; */
+  }
+
+  .overViewImg{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    box-sizing: border-box;
+  }
+
+  .img-View{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .figureImg{
+    width: 100%;
+    height: 100%;
+    /* background-color: gold; */
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .overvierVideo{
+    width: 100%;
+    height: 100% !important;
+  }
+
+
+  .viewText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    /* background-color: gold; */
+  }
+
+  .playIcon{
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: green;
+    width: 50px;
+  }
+
+  .mission_Vission{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 50px;
+align-items: center;
+width: 100%;
+  }
+
+  .mission, .Vision{
+    width: 100%;
+    height: 250px; 
+  }
+
+  .IndustryChallenges{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: auto;
+
+  }
+
+  .challengeRow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .challange{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 250px;
+    height: 200px;
+    box-sizing: border-box;
+    /* background: red; */
+  }
+
+  .challangeHeader{
+font-size: 20px;
+font-weight: 500px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .challangeparagraph{
+font-size: 15px;
+font-weight: 500px;
+  }
+
+  .textHeader{
+   font-size: 25px;
+font-weight: 500px;
+font-family: 'Franklin Gothic Medium';
+color: green;
+ 
+  }
+
+@media (max-width: 768px) {
+
+
+
+  .about-Container{
+  width: 90%;
+  /* display: none; */
+}
+
+.aboutOverview{
+  display:flex;
+  flex-direction: column !important;
+  align-items: center;
+  justify-content: center;
+}
+
+  .mission_Vission{
+display: flex;
+flex-direction: column;
+gap: 20px;
+align-items: center;
+width: 100%;
+  }
+
+  .mission, .Vision{
+    width: 100%;
+    height: 100%; 
+  }
+
+   .challengeRow{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .challange{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    /* background: red; */
+  }
+
+   .challangeHeader{
+font-size: 15px;
+font-weight: 500px;
+color: black;
+text-align: center;
+width: 100%;
+  }
+  .challangeparagraph{
+font-size: 12px;
+font-weight: 400px;
+  }
+  }
 @media (min-width: 768px) {
   .ftco-service-image-1 .service:hover img {
-    top: -5px; } }
+    top: -5px; } 
+  }
 
 .owl-all .owl-dots {
   text-align: center;
@@ -1366,7 +1584,15 @@ h1, h2, h3, h4, h5,
     .owl-all .owl-dots .owl-dot.active > span {
       background: #007bff; }
 
+
+
+
+
 @media (min-width: 992px) {
+
+
+
+
   .owl-all .owl-nav,
   .owl-all .owl-dots {
     display: none; }

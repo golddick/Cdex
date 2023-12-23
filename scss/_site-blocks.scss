@@ -71,9 +71,13 @@
     font-weight: bold;
   }
   h2 {
-    font-size: 3rem;
+    // font-size: 3rem;
+    font-size: 25px;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium';
+    color: green;
     text-transform: none!important;
-    color: $primary;
+    // color: $primary;
     @include media-breakpoint-down(md) {
       font-size: 2rem;
     }
