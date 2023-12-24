@@ -1502,6 +1502,11 @@ color: green;
  
   }
 
+  .whySectionImg{
+  /* display: none; */
+
+  }
+
 @media (max-width: 768px) {
 
 
@@ -1509,7 +1514,12 @@ color: green;
   .about-Container{
   width: 90%;
   /* display: none; */
+  
 }
+.whySectionImg{
+  display: none;
+  
+  }
 
 .aboutOverview{
   display:flex;
