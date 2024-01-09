@@ -216,7 +216,8 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-light-active-color;
+      // color: $navbar-light-active-color;
+      color: $green;
     }
   }
 
@@ -235,7 +236,8 @@
       color: $navbar-light-active-color;
 
       @include hover-focus {
-        color: $navbar-light-active-color;
+        // color: $navbar-light-active-color;
+        color: $green;
       }
     }
   }
@@ -256,7 +258,8 @@
       color: $navbar-dark-color;
 
       @include hover-focus {
-        color: $navbar-dark-hover-color;
+        // color: $navbar-dark-hover-color;
+        color: $green;
       }
 
       &.disabled {
@@ -268,7 +271,8 @@
     .active > .nav-link,
     .nav-link.show,
     .nav-link.active {
-      color: $navbar-dark-active-color;
+      // color: $navbar-dark-active-color;
+      color: $green;
     }
   }
 
@@ -284,10 +288,12 @@
   .navbar-text {
     color: $navbar-dark-color;
     a {
-      color: $navbar-dark-active-color;
+      // color: $navbar-dark-active-color;
+      color: $green;
 
       @include hover-focus {
-        color: $navbar-dark-active-color;
+        // color: $navbar-dark-active-color;
+        color: $green;
       }
     }
   }

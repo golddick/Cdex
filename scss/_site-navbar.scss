@@ -40,7 +40,7 @@
 			
 			margin-bottom: 0;
 			.active {
-				color: green!important;
+				color: $green;
 				// display: inline-block;
 				// border-bottom: 2px solid $primary;
 			}
@@ -54,14 +54,14 @@
 					margin-left: 15px;
 					margin-right: 15px;
 					padding: 20px 0px;
-					color: $black!important;
+					color: $green!important;
 					// display: inline-block;
 					display: none;
 					text-decoration: none!important;
 					// border-bottom: 2px solid transparent;
 					
 					&:hover {
-						color: green;
+						color: $green;
 						
 					}
 				}
@@ -123,17 +123,18 @@
 						text-transform: none;
 						letter-spacing: normal;
 						transition: 0s all;
-						color: $black!important;
+						color: $green!important;
+				
 						&.active {
-							color: green!important;
+							color: $green!important;
 							background: $gray-100;
 						}
 					}
-					// .active {
-					// 	> a {
-					// 		color: $primary!important;
-					// 	}
-					// }
+					.active {
+						> a {
+							color: $green!important;
+						}
+					}
 					> li {
 						list-style: none;
 						padding: 0;
@@ -144,7 +145,7 @@
 							display: block;
 							&:hover {
 								background: $gray-100;
-								color: $gray-400;
+								color: $green;
 							}
 						}
 
@@ -162,7 +163,7 @@
 							&:hover, &:active, &:focus {
 								> a {
 									background: $gray-100;
-									color: $gray-400;
+									color: $green;
 								}
 							}
 						}
@@ -171,7 +172,7 @@
 				
 				&:hover, &:focus, &:active {
 					> a {
-						color: $primary;
+						color: $green;
 					}
 				}
 				&:hover, &:focus, &:active {
@@ -227,6 +228,7 @@
 				line-height: 1;
 				cursor: pointer;
 				transition: .3s all ease;
+				color: $green;
 				&:hover {
 					color: $gray-400;
 				}
@@ -273,9 +275,9 @@
 			padding: 10px 20px;
 			display: block;
 			position: relative;
-			color: $gray-900;
+			color: $green;
 			&:hover {
-				color: $primary;
+				color: $green;
 			}
 		}
 		li {
@@ -283,14 +285,14 @@
 			display: block;
 			.nav-link {
 				&.active {
-					color: $primary;
+					color: $green;
 				}
 			}
-			// &.active {
-			// 	> a {
-			// 		color: $primary;
-			// 	}
-			// }
+			&.active {
+				> a {
+					color: $green;
+				}
+			}
 		}
 		.arrow-collapse {
 			position: absolute;
@@ -416,15 +418,15 @@
 			box-shadow: 4px 0 20px -5px rgba(0,0,0,.2);
 			.site-logo {
 				a {
-					color: $primary;
+					color: $green;
 				}
 			}
 			ul {
 				li {
 					a {
-						color: $black!important;
+						color: $green!important;
 						&.active {
-							color: $primary!important;
+							color: $green!important;
 						}
 					}
 				}

@@ -3,6 +3,9 @@
 // Kickstart any navigation component with a set of style resets. Works with
 // `<nav>`s or `<ul>`s.
 
+
+
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -55,7 +58,8 @@
 
   .nav-link.active,
   .nav-item.show .nav-link {
-    color: $nav-tabs-link-active-color;
+    // color: $nav-tabs-link-active-color;
+    color: $green !important;
     background-color: $nav-tabs-link-active-bg;
     border-color: $nav-tabs-link-active-border-color;
   }
@@ -80,10 +84,13 @@
 
   .nav-link.active,
   .show > .nav-link {
-    color: $nav-pills-link-active-color;
+    // color: $nav-pills-link-active-color;
+    color: $green !important;
     background-color: $nav-pills-link-active-bg;
   }
 }
+
+
 
 
 //

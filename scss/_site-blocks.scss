@@ -639,7 +639,7 @@
 // 03-Block
 .ftco-blocks-cover-1 {
   .ftco-service-image-1 {
-    position: static;
+    // position: static;
   }
 }
 
@@ -649,6 +649,7 @@
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
+  object-fit: contain;
   &, & .container>.row {
     height: 100vh;
     min-height: 600px;
@@ -739,6 +740,7 @@
   .owl-dots {
     text-align: center;
     margin-top: 30px;
+   
     .owl-dot {
       display: inline-block;
       >span {
@@ -751,7 +753,7 @@
       }
       &.active {
         >span {
-          background: $primary;
+          background: $green;
         }
       }
     }
