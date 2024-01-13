@@ -1548,7 +1548,7 @@ color: green;
   }
 
   .cHeader{
-    color: #000;
+    color: #fff;
     /* background-color: chocolate; */
     display: flex;
     flex-direction: column;
@@ -1572,7 +1572,7 @@ font-size: 40px;
 
 
   .about-Container{
-  width: 90%;
+  width: 70%;
   /* display: none; */
   
 }
