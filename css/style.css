@@ -1572,7 +1572,8 @@ font-size: 40px;
 
 
   .about-Container{
-  width: 70%;
+  width: 90%;
+  margin: auto;
   /* display: none; */
   
 }
